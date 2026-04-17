@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+img{
+    display: block;
+}
+a{
+    text-decoration-line: none;
+}
+ul{
+    list-style-type: none;
+    margin-block: 0;
+    padding-left: 0;
+}
+.container{
+    width: 1240px;
+    margin-inline: auto;
+    padding-inline: 20px;
+}
+.site-main{
+margin-top: 231px;
+}
+.site-section{
+
+}
+.iphone-list{
+display: flex;
+justify-content: space-between;
+}
+.iphone-item{
+width: 282px;
+border: 1px solid #4361FF4D;
+border-radius: 10px;
+padding-inline: 10px;
+padding-block: 10px;
+}
+.iphone-img{
+    padding-bottom: 12px;
+}
+.sale-img{
+    position: absolute;
+    transform: translate(205px,-325px);
+}
+.iphone-tittle{
+    font-family: Inter;
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0px;
+color: #141718;
+margin-block: 4px 4px;
+}
+.price{
+    font-family: Inter;
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 14px;
+line-height: 22px;
+letter-spacing: 0px;
+color: #121212;
+margin-block: 0;
+}
+.iphone-box{
+    display: flex;
+    justify-content: space-between;
+}
+.icon-button{
+    background-color: #4361FF;
+    width: 60px;    
+    height: 60px;
+    border-radius: 10px;
+}
+.icons-img{
+    margin-inline: auto;
+}
